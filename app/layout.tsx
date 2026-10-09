@@ -32,6 +32,11 @@ export const metadata: Metadata = {
   authors: [{ name: "Humberto Zizi" }],
   alternates: { canonical: `${siteUrl}/` },
   robots: { index: true, follow: true },
+  verification: {
+    other: {
+      "facebook-domain-verification": "50tnixj9ocz8rxrhhbyd9gjg0qwstk",
+    },
+  },
   icons: {
     icon: faviconUrl,
     shortcut: faviconUrl,
